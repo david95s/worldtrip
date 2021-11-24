@@ -31,11 +31,24 @@ export const theme = extendTheme({
 
 
 export const themeDark = extendTheme({
+  colors: {
+    white:  "#2D3748"
+    ,
+    yellow: {
+      "400": "#FFBA08",
+      "300": "rgba(255, 186, 8,0.5)"
+    },
+    colorText: '#ccc'
+  },
+  fonts: {
+    heading: 'Poppins',
+    body: 'Poppins'
+  },
   styles: {
     global: {
       body: {
         bg: 'gray.900',
-        color: 'gray.100'
+        color: '#ffff'
       }
     }
   }
