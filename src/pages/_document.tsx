@@ -11,6 +11,7 @@ export default class MyDocument extends Document {
           <link rel="shortcut icon" href="favicon.png" type="image/png"/>
           <link rel="apple-touch-icon" href="favicon.png"></link>
 
+
           <meta property="og:locale" content="pt_BR" />
           <meta property="og:type" content="website" />
           <meta property="og:site_name" content="WorldTrip" />

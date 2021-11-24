@@ -8,7 +8,6 @@ import { useContinent } from '../../hooks/useContinent';
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
 
 
-
 export const Slide = () =>{
   
   const { continents } = useContinent();
